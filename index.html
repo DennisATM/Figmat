@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <script src="./js/main.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  
+  <link rel="stylesheet" href="./css/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200&family=Jura:wght@300&display=swap" rel="stylesheet">
+
+  <title>Figmat - Líderes en proyectos y asesorías</title>
+
+</head>
+
+<body>
+  <div class="header">
+    
+    <!-- Header Navbar -->
+    <div class="header__navbar fixed-top">
+        <nav class="navbar w-100 navbar-expand-md navbar-light">
+            <a class="navbar-brand" href="#"><img src="./images/logo2.jpg" class="nav__logo ml-2" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav m-auto">
+                <li class="nav-item active">
+                    <a class="nav-link mr-4 text-dark nav-text" href="#">Servicios<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mr-4 text-dark nav-text" href="#">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mr-4 text-dark nav-text" href="#">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mr-4 text-dark nav-text" href="#">Admin</a>
+                </li>
+              </ul>
+            </div>
+
+        </nav>
+    </div>
+    <!-- End Header Navbar -->
+
+    <!-- Header Carousel -->
+    <div class="header__carousel">       
+        <div class="bd-example">
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                  <img class="d-block w-100 header__carousel-img" data-src="holder.js/900x300?auto=yes&amp;bg=777&amp;fg=555&amp;text=First slide" alt="First slide [900x300]" src="./images/slide1.jpg" data-holder-rendered="true" >
+                  <div class="carousel-caption d-md-block p-0">
+                    <h3 class="text-warning carousel-title">Construcción y obras civiles</h3>
+                    <p class="text-white font-weight-bold carousel-text">Construcción, mejoramiento, demolición, saneamiento para todos tus proyectos civiles.</p>
+                    <div class="carousel-caption-button">
+                        <button type="button" class="btn btn-warning carousel-button P-4">VER NUESTROS TRABAJOS</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100 header__carousel-img" data-src="holder.js/900x300?auto=yes&amp;bg=666&amp;fg=444&amp;text=Second slide" alt="Second slide [900x300]" src="./images//slide2.jpg" data-holder-rendered="true">
+                  <div class="carousel-caption d-md-block p-0">
+                    <h3 class="text-warning carousel-title">Automatización</h3>
+                    <p class="text-white font-weight-bold carousel-text">Instalación, mantención y mejoramiento de tus proyectos de Automatización</p>
+                    <div class="carousel-caption-button">
+                        <button type="button" class="btn btn-warning carousel-button P-4">VER NUESTROS TRABAJOS</button>
+                    </div>
+                </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100 header__carousel-img" data-src="holder.js/900x300?auto=yes&amp;bg=666&amp;fg=444&amp;text=Second slide" alt="Second slide [900x300]" src="./images//slide3.jpg" data-holder-rendered="true"|>
+                    <div class="carousel-caption d-md-block p-0 m-0">
+                      <h3 class="text-warning carousel-title">Video vigilancia</h3>
+                      <p class="text-white font-weight-bold carousel-text">Instalación de cámaras de CCTV.</p>
+                      <div class="carousel-caption-button">
+                          <button type="button" class="btn btn-warning carousel-button P-4">VER NUESTROS TRABAJOS</button>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>              
+    </div>
+    <!-- End Header Carousel -->
+
+    <div class="body">
+
+      <div class="services justify-content-center">
+        <div class="row mw-100 m-auto">
+
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card mb-3 services-card" style="max-width: 350px;" id="card1">
+              <div class="row no-gutters">
+                <div class="col-3">
+                  <img src="./images/ico1.png" alt="Icono construcción" class="services-ico">
+                </div>
+                <div class="col-9">
+                  <div class="card-body">
+                    <h5 class="card-title font-weight-bold">Construcción</h5>
+                    <p class="card-text text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit, perferendis consequa</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card mb-3 services-card" style="max-width: 350px;">
+              <div class="row no-gutters">
+                <div class="col-3">
+                  <img src="./images/ico3.png" alt="Icono construcción" class="services-ico">
+                </div>
+                <div class="col-9">
+                  <div class="card-body">
+                    <h5 class="card-title font-weight-bold">Automatización</h5>
+                    <p class="card-text text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit, perferendis consequa</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card mb-3 services-card" style="max-width: 350px;">
+              <div class="row no-gutters m-auto">
+                <div class="col-3">
+                  <img src="./images/ico5.png" alt="Icono construcción" class="services-ico">
+                </div>
+                <div class="col-9">
+                  <div class="card-body">
+                    <h5 class="card-title font-weight-bold">Ingeniería</h5>
+                    <p class="card-text text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit, perferendis consequa</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card mb-3 services-card" style="max-width: 350px;">
+              <div class="row no-gutters">
+                <div class="col-3">
+                  <img src="./images/ico2.png" alt="Icono construcción" class="services-ico">
+                </div>
+                <div class="col-9">
+                  <div class="card-body">
+                    <h5 class="card-title font-weight-bold">Instalaciones sanitarias</h5>
+                    <p class="card-text text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit, perferendis consequa</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card mb-3 services-card" style="max-width: 350px;">
+              <div class="row no-gutters">
+                <div class="col-3">
+                  <img src="./images/ico4.png" alt="Icono construcción" class="services-ico">
+                </div>
+                <div class="col-9">
+                  <div class="card-body">
+                    <h5 class="card-title font-weight-bold">Electricidad</h5>
+                    <p class="card-text text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit, perferendis consequa</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card mb-3 services-card" style="max-width: 350px;">
+              <div class="row no-gutters m-auto">
+                <div class="col-3">
+                  <img src="./images/ico6.png" alt="Icono construcción" class="services-ico">
+                </div>
+                <div class="col-9">
+                  <div class="card-body">
+                    <h5 class="card-title font-weight-bold">Consultoría</h5>
+                    <p class="card-text text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit, perferendis consequa</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="nosotros">
+        <div class="row mw-100 m-auto">
+
+          <div class="col-sm-12 col-md-4 bg-warning">
+            <div class="row">
+              <div class="nosotros-title ml-5"><h3 class="font-weight-bold ">Valores</h1></div>
+            </div>
+            <div class="row nosotros-content">
+              <div class="col-2 text-white"><h1 class="ml-3">»</h1></div>
+              <div class="col-9 mb-2">
+                <p class="text-white"> <span class="font-weight-bold text-dark"> Confianza</span> <br>
+                Cercanía con nuestros clientes que nos sienten y reconocen como una "empresa amiga" dispuesta a darle vida a sus proyectos.
+                </p>
+              </div>
+            </div>
+
+            <div class="row nosotros-content">
+              <div class="col-2 text-white"><h1 class="ml-3">»</h1></div>
+              <div class="col-9 mb-2">
+                <p class="text-white"> <span class="font-weight-bold text-dark"> Personal altamente capacitado</span> <br>
+                Todas las personas que integran el equipo llevan años en esta industria y esa trayectoria que cada uno trae, complementa nuestro historial de empresa.
+                </p>
+              </div>
+            </div>
+
+            <div class="row nosotros-content">
+              <div class="col-2 text-white"><h1 class="ml-3">»</h1></div>
+              <div class="col-9 mb-2">
+                <p class="text-white"> <span class="font-weight-bold text-dark"> Alta capacidad de confianza</span> <br>
+                Hoy los años y la experiencia nos sitúan como un equipo de profesionales que cierra negocios y diseña la productividad completa.
+                </p>
+              </div>
+            </div>
+
+            <div class="row nosotros-content">
+              <div class="col-2 text-white"><h1 class="ml-3">»</h1></div>
+              <div class="col-9 mb-2">
+                <p class="text-white"> <span class="font-weight-bold text-dark "> Innovadores y eficientes</span> <br>
+                Estamos al tanto de las innovaciones en cuanto a nuestro rubro, estamos en constante investigación y aplicación de las nuevas tecnologías.
+                </p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-sm-12 col-md-8 nosotros-mision-vision">
+            <h1 class="nosotros-mision-vision-title text-center">Misión y Visión de la empresa</h1>
+            <div class="nosotros-mision-vision-align">
+              <div class="col-sm-12 col-md-6 nosotros-mision-vision-content">
+                <p> Nuestra misión como empresa es cumplir con los requerimientos que los clientes y el desarrollo industrial requieren.</p>
+                <p>Abastecer de forma oportuna las necesidades de nuestros clientes, con productos de la mas alta calidad.</p>
+                <p>Mantener un estándar en nuestros inventarios para poder satisfacer la demanda de la industria en general.</p>
+                <p>Entregar un servicio integral a nuestros clientes, mejorando continuamente y expandiendo nuestras prestaciones, basado en la identificación de sus necesidades específicas.</p>
+              </div>
+
+              <div class="col-sm-12 col-md-6 nosotros-mision-vision-content">
+                <p>Privilegiar la capacitación con acento en el desarrollo profesional, tecnológico y la seguridad de nuestros trabajadores, estimulando la proactividad, el desarrollo de nuestra ideas y el sentido de pertenencia.</p>
+                <p>Consolidar una positiva relación con nuestros grupos de interés, basada en la confianza, lealtad, respeto y transparencia, comprometidos con una alta calidad de servicio y Responsabilidad Social Empresarial.</p>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
