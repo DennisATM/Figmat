@@ -142,14 +142,24 @@
     width: 18em;
     height: 7em;
     border-radius: 10px;
-    filter: grayscale(1);    
+    filter: grayscale(1);
 }
 
 /* Formulario de contacto */
 
+.contact{
+    box-shadow: 4px 2px 2px black;
+    margin-bottom: 2em;
+}
+
+.contact_icon{
+    font-size: 3em;
+}
+
 .contact_info{
-    margin: auto;
+    margin: 0;
     justify-content: center;
+    margin-left: 2em;
     background: rgb(255, 187, 0);
     padding-bottom: 2em;
 }
@@ -157,6 +167,7 @@
 .contact_info .info_title{
     color: white;
     text-align: center;
+    margin: 0 auto;
 }
 
 .info_items{
@@ -167,10 +178,13 @@
 }
 
 .user_info{
-    align-items: center;
     color: grey;
     font-size: 1em;
-    text-align: center;
+    text-align: initial;
+}
+
+.contact_form{
+    margin-left: 1em;
 }
 
 @media (min-width: 760px){
@@ -261,7 +275,7 @@
         margin-top: 6.1em;
         height: 4em;
         font-size: 2em;
-        padding-top: 1.2em;
+        padding-top: .6em;
     }
 
     .mision-vision-ico{
@@ -270,6 +284,17 @@
         height: 1.5em;
         background: lightgray;
         border-radius: 20px;
+    }
+
+    .nosotros-logo{
+        width: 18em;
+        height: 3em;
+        border-radius: 10px;
+        filter: grayscale(1);
+    }
+
+    .contact_form{
+        margin-left: 9em;
     }
 
 }
