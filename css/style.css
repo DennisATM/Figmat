@@ -128,7 +128,7 @@
     height: 8em;
     background: black;
     text-align: center;
-    padding-top: 1em;
+    padding-top: .5em;
 }
 
 .mision-vision-ico{
@@ -138,14 +138,18 @@
     border-radius: 50px;
 }
 
-/* Formulario de contacto */
-
-.contact-form{
-    margin-top: 2em;
-    box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 1);
+.nosotros-logo{
+    width: 18em;
+    height: 7em;
+    border-radius: 10px;
+    filter: grayscale(1);    
 }
 
+/* Formulario de contacto */
+
 .contact_info{
+    margin: auto;
+    justify-content: center;
     background: rgb(255, 187, 0);
     padding-bottom: 2em;
 }
@@ -159,6 +163,13 @@
     margin-top: 5em;
     font-size: 1em;
     color:white;
+    text-align: center;
+}
+
+.user_info{
+    align-items: center;
+    color: grey;
+    font-size: 1em;
     text-align: center;
 }
 
@@ -220,15 +231,6 @@
         background: lightgray;
         border-radius: 20px;
     }
-
-    /* .separator{
-        top: 40px;
-        margin-top: 50px;
-        width: 3em;
-        height: .2em;
-        background: peru;
-    } */
-
 }
 
 
