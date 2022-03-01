@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
 }
-
+body{
+    background:  #f7a53b;
+}
 .nav-text{
     font-family:'Bai Jamjuree', sans-serif;
     font-size: 1em;
@@ -64,6 +66,21 @@
 .carousel-text{
     font-size: .7em;
     text-shadow: 2px 2px 2px blue;
+}
+
+.services-title{
+    font-size: 4em;
+}
+
+.valores{
+    /* background: rgb(5, 224, 224); */
+    background: linear-gradient(to top, rgb(5, 224, 224), rgb(209, 245, 250));
+
+
+}
+
+.valores-title{
+    font-size: 3em;
 }
 
 .services-card{
@@ -214,7 +231,7 @@
         text-align: center;
         color: #fff;
         font-family: "open sans";
-    background: #F29720;
+    background: #9fa09e;
     }
 
     .tarjeta-wrap:hover .tarjeta{
@@ -304,8 +321,15 @@
         display: initial;
     }
 
+    .header__carousel{
+        width: 80%;
+        height: 700px;
+        margin: auto;
+        justify-content: center;
+    }
+
     .header__carousel-img{
-        height: 500px;
+        height: 650px;
     }
     
     .carousel-caption-button{
